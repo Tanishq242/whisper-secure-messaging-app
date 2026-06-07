@@ -1,0 +1,15 @@
+[ {
+  "groupName" : "crt",
+  "membersCount" : 2,
+  "groupAdmin" : "tanishq",
+  "groupPublicKey" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1dUVvIuDL4Of68ZNTwdVd7S6eD8uwd0k2dEa4jDQ5DlOmoYWGCRp/hFS0hNGs/ugtnCO3erU8XPbj2Z778VcNL3ND7j2u/AcS96IRYBegYe5US/s6ZCInCAHwcRP+6jHExb1/s6SHJ5kcA4A2UGSN/UMCapHF6kS3dr+BHbOcOY+lbDZndiZy6mjU0+miPBcDjWdEVm3qmqfJY1BcYdusMpYUgTT4EHL0VMtOqaQ7l3E4ELEMNggl9gI+JW9aAHtY1XYZinzx06iY/0nNjTIYWjoSXZmQN8o+bGeT+kA7YNl7Ch3bJ2Y3x2lBc5H4O5wo0KuY9SJj/crZzWCX/QXWwIDAQAB",
+  "groupId" : 8487619624,
+  "memberDetails" : [ {
+    "memberName" : "tanya",
+    "memberId" : 8920949643
+  }, {
+    "memberName" : "soumeya",
+    "memberId" : 8595079238
+  } ],
+  "groupAdmin_2" : null
+} ]

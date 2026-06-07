@@ -1,0 +1,120 @@
+.vboxLeft {
+    -fx-pref-width: 350;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-background-color: linear-gradient(
+                from 0% 0% to 100% 0%,
+                #37b78d 0%,
+                #39ada2 50%,
+                #3aa6b0 100%
+            );
+}
+
+.vboxRight {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+.l1 {
+    -fx-font-size: 50;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 30 0;
+}
+
+.l2 {
+    -fx-font-size: 30;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.l3 {
+    -fx-font-size: 15;
+    -fx-font-family: "Calibre";
+    -fx-text-fill: white;
+}
+
+.warningText {
+    -fx-font-family: "Calibre";
+    -fx-text-fill: red;
+    -fx-font-size: 15;
+}
+
+.tf1, .tf2, .tf3, .tf4 {
+    -fx-prompt-text-fill: gray;
+    -fx-background-color: #edf5f3;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+    -fx-max-width: 400;
+    -fx-pref-height: 40;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-color: #888;
+    -fx-border-width: 0;
+    -fx-padding: 10 15 10 15;
+}
+
+.signIn-btn {
+    -fx-text-fill: black;
+    -fx-pref-width: 200;
+    -fx-pref-height: 50;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-font-family: "Calibre";
+    -fx-background-color: white;
+}
+
+.signUp-btn {
+    -fx-text-fill: black;
+    -fx-background-color: #28b498;
+}
+
+.verifyLabel {
+    -fx-font-size: 40;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+}
+
+.timeLabel {
+    -fx-font-size: 15;
+    -fx-font-family: "Calibre";
+    -fx-text-fill: gray;
+}
+
+.resendLabel:hover {
+    -fx-underline: true;
+}
+
+.field {
+    -fx-prompt-text-fill: gray;
+    -fx-background-color: #edf5f3;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #28b498;
+    -fx-border-width: 1;
+}
+
+.verifyBtn {
+    -fx-text-fill: black;
+    -fx-pref-width: 90;
+    -fx-pref-height: 30;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-font-family: "Calibre";
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-color: #28b498;
+}
+
+.infoText {
+    -fx-text-fill: red;
+    -fx-font-family: "Calibre";
+}

@@ -1,0 +1,573 @@
+.vboxLeft {
+    -fx-pref-width: 200;
+    -fx-alignment: top-center;
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #5d82fe 0%,
+            #6292ff 50%,
+            #7ea0ff 100%
+        );
+}
+
+.profileNameBox {
+    -fx-alignment: center;
+}
+
+.profileName {
+    -fx-text-fill: #D8FFF1;
+    -fx-font-size: 20;
+    -fx-font-family: "cambria";
+}
+
+.imgContainer {
+    -fx-padding: 50 0 10 0;
+    -fx-alignment: center;
+}
+
+.menuContainer {
+    -fx-padding: 25 0 0 0;
+    -fx-spacing: 35;
+}
+
+.i1, .i2, .i4, .i5, .i6 {
+    -fx-padding: 0 0 0 40;
+}
+
+.i3 {
+    -fx-padding: 0 0 0 42;
+}
+
+.menuContainerFirst {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.menuContainerSecond {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.i1:hover {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.i2:hover {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.i4:hover {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.i5:hover {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.i6:hover {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-style: solid;
+}
+
+.l1, .l2, .l4, .l6 {
+    -fx-font-size: 16;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-font-family: "Calibre";
+}
+
+.l5 {
+   -fx-font-size: 16;
+   -fx-font-weight: 800;
+   -fx-text-fill: white;
+   -fx-font-family: "Calibre";
+}
+
+.l3 {
+    -fx-font-size:20;
+    -fx-font-family: "Roboto";
+}
+
+.searchbarBox {
+    -fx-padding: 20 0 0 0;
+    -fx-alignment: top-center;
+    -fx-pref-width: 300;
+    -fx-pref-height: 50;
+    -fx-background-color: white;
+    -fx-border-width: 0;
+}
+
+.searchBar {
+    -fx-background-color: #f6f6f6;
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: 700;
+    -fx-max-width: 250;
+    -fx-pref-height: 40;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 0;
+    -fx-padding: 10 15 10 35;
+    -fx-background-image: url("/search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 10;
+    -fx-background-size: 16px 16px;
+}
+
+.vboxMid {
+    -fx-spacing: -2;
+    -fx-background-color: white;
+}
+
+.vboxMidDark {
+    -fx-spacing: -2;
+    -fx-background-color: #283747;
+}
+/*
+.context-menu {
+    -fx-text-fill: white;
+    -fx-pref-width: 100;
+    -fx-background-color: black;
+    -fx-border-width: 0;
+    -fx-padding: 5;
+    -fx-border-radius: 15;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+}
+
+.menu-item {
+    -fx-text-fill: white;
+    -fx-border-radius: 15;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+}
+*/
+
+.langItem {
+    -fx-background-color: white;
+    -fx-padding: -1 -1 -1 -1;
+}
+
+.contextMenu {
+    -fx-pref-width: 100;
+    -fx-border-radius: 15;
+    -fx-background-radius: 5;
+}
+.menuItem {
+    -fx-border-radius: 15;
+    -fx-background-radius: 5;
+}
+
+.deleteBtnBox {
+    -fx-alignment: Bottom-center;
+}
+
+.deleteBtn {
+    -fx-background-color: #85c1e9;
+    -fx-text-fill: black;
+}
+
+.deleteBtn:hover {
+    -fx-background-color: #7fb3d5;
+}
+
+.midLowerBox {
+    -fx-background-color: white;
+    -fx-pref-height: 510;
+    -fx-border-width: 0;
+}
+
+.settingMid {
+    -fx-background-color: white;
+    -fx-pref-width: 300;
+    -fx-spacing: 10;
+}
+
+.filesBox {
+    -fx-background-color: white;
+    -fx-pref-width: 300;
+    -fx-spacing: 10;
+}
+
+.importMid {
+    -fx-background-color: white;
+    -fx-pref-width: 300;
+    -fx-spacing: 10;
+}
+
+.chatLogLabel {
+    -fx-font-family: "Calibre";
+    -fx-font-size: 15;
+}
+
+.settingBox:hover {
+    -fx-background-color: #f8f9f9;
+}
+
+.settingBoxDark:hover {
+    -fx-background-color: gray;
+}
+
+.settingLabels {
+    -fx-font-size: 15;
+}
+
+.vboxRight {
+    -fx-alignment: top-center;
+    -fx-background-color: #f6f5f8;
+}
+
+.personName {
+    -fx-alignment: center-left;
+}
+
+.StatusBox {
+    -fx-max-width: 150;
+    -fx-padding: 15 0 0 0;
+}
+
+.name-label {
+    -fx-text-fill: black;
+    -fx-font-family: "Calibre";
+    -fx-font-size: 20;
+    -fx-padding: 0 0 0 20;
+}
+
+.encryptionLabel {
+    -fx-padding: 0 0 0 315;
+}
+
+.chatArea {
+    -fx-padding: 0 20 10 30;
+    -fx-pref-height: 475;
+    -fx-alignment: bottom-left;
+    -fx-border-width: 0;
+}
+
+.msgBox {
+    -fx-alignment: center;
+    -fx-spacing: 18;
+}
+
+.msg-box {
+    -fx-background-insets: 0;
+    -fx-padding: 5 15 5 20;
+    -fx-font-size: 13;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Calibre";
+    -fx-pref-width: 350;
+    -fx-pref-height: 35;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* Hide ScrollPane borders and scrollbars inside TextArea */
+.msg-box .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-border-width: 0;
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.sendBtn {
+    -fx-text-fill: white;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-font-family: "Calibre";
+    -fx-background-color: #5d82fe;
+}
+
+.chatList:hover {
+    -fx-background-color: #f8f9f9;
+}
+
+.chatListDark:hover {
+    -fx-background-color: gray;
+}
+
+.infoBox {
+    -fx-padding: 0 0 10 15;
+    -fx-spacing: 10;
+    -fx-alignment: center-left;
+}
+
+.infoBox2 {
+    -fx-padding: 0 0 10 15;
+    -fx-alignment: center-left;
+}
+
+.groupBtn {
+    -fx-text-fill: white;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-font-family: "Calibre";
+    -fx-background-color: #5d82fe;;
+}
+
+.nameText {
+    -fx-font-family: "arial rounded mt bold";
+    -fx-text-fill: Black;
+    -fx-font-size: 15;
+    -fx-pref-width: 180;
+}
+
+.personText {
+    -fx-alignment: center-left;
+}
+
+.lastMsg {
+    -fx-font-family: "roboto";
+    -fx-text-fill:gray;
+}
+
+.msgLabel {
+    -fx-font-family: "Calibre";
+    -fx-font-size: 16;
+    -fx-text-fill: Black;
+}
+
+.msgLabel2 {
+    -fx-font-family: "Calibre";
+    -fx-font-size: 16;
+    -fx-text-fill: Black;
+}
+
+.msgSide, .msgSide2 {
+    -fx-spacing: 10;
+    -fx-padding: 10 0 0 0;
+}
+
+.msgSide2 {
+    -fx-alignment: center-right;
+}
+
+.msgBubble {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-padding: 10;
+}
+
+.msgBubble2 {
+    -fx-background-color: #7b9eff;
+    -fx-background-radius: 15px;
+    -fx-padding: 10;
+}
+
+.datetime {
+    -fx-text-fill: gray;
+
+}
+
+.timeBox {
+    -fx-alignment: center;
+    -fx-padding: 20 0 10 0;
+}
+
+.scrollPane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .thumb {
+    -fx-background-color: #b3b6b7;
+}
+
+.scroll-pane .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .increment-button,
+.scroll-pane .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-max-width: 0;
+    -fx-max-height: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    -fx-opacity: 0;
+}
+
+.vboxRight1 {
+    -fx-padding: 100 0 0 0;
+    -fx-background-color: #f8f9f9;
+    -fx-alignment: top-center;
+    -fx-spacing: 10;
+}
+
+.vboxRight2 {
+    -fx-background-color: #f8f9f9;
+}
+
+.vboxRight2Label {
+    -fx-font-size: 18;
+    -fx-font-family: "Calibre";
+    -fx-padding: 10;
+    -fx-background-color: #9aaef4;
+    -fx-pref-width: 575;
+}
+
+.chatLogLabel {
+    -fx-font-family: "Calibre";
+}
+
+.chatLogTopLabel {
+    -fx-font-size: 15;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: bold;
+}
+
+.chatLogBox:hover {
+    -fx-background-color: #f8f9f9;
+}
+
+.chatLogBoxDark:hover {
+    -fx-background-color: gray;
+}
+
+.timeStamp {
+    -fx-font-size: 10;
+    -fx-text-fill: black;
+}
+
+.timeStampDark {
+    -fx-font-size: 10;
+    -fx-text-fill: white;
+}
+
+.tf1 {
+    -fx-prompt-text-fill: gray;
+    -fx-background-color: white;
+    -fx-font-family: "Calibre";
+    -fx-font-weight: 700;
+    -fx-max-width: 400;
+    -fx-pref-height: 40;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-padding: 10 15 10 15;
+}
+
+.settingRightHeading {
+    -fx-font-size: 30;
+    -fx-font-family: "calibre";
+    -fx-font-weight: bold;
+}
+
+.currentNameLabel {
+    -fx-font-size: 15;
+    -fx-font-family: "calibre";
+}
+
+.forgotPassword {
+    -fx-text-fill: #DE3163;
+    -fx-cursor: hand;
+}
+
+.forgotPassword:hover {
+    -fx-underline: true;
+}
+
+.updateMsg {
+    -fx-text-fill: #2ecc71;
+    -fx-font-weight: bold;
+}
+
+.warningText {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+.saveBtnBox {
+    -fx-alignment: center;
+    -fx-padding: 20 0 0 0;
+}
+
+.emojiLabel {
+    -fx-padding: 5;
+}
+
+.emojiLabel:hover {
+    -fx-background-color: #e5e7e9;
+}
+
+.circle {
+    -fx-background-color: "#d6eaf8";
+    -fx-background-radius: 30;
+    -fx-padding: 15;
+}
+
+.circle:hover {
+    -fx-background-color: "#85c1e9";
+}
+
+.filesNameBox {
+    -fx-border-color: #CAD5E2;
+    -fx-border-width: 1;
+}
+
+.filesNameBoxDark {
+    -fx-border-color: #CAD5E2;
+    -fx-border-width: 1;
+}
+
+.filesNameBox:hover {
+    -fx-background-color: #f8f9f9;
+}
+
+.filesNameBoxDark:hover {
+    -fx-background-color: gray;
+}
+
+.folderBox:hover {
+    -fx-background-color: #CAD5E2;
+}
+
+.folderBoxDark:hover {
+    -fx-background-color: gray;
+}
+
+/* slider-style.css */
+.styled-slider .track {
+    -fx-background-radius: 5;
+    -fx-pref-height: 8;
+}
+
+.styled-slider .thumb {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 10;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+}
+
+.styled-slider .thumb:hover {
+    -fx-background-color: #1976D2;
+}
+
+.styled-slider .thumb:pressed {
+    -fx-background-color: #0D47A1;
+}
