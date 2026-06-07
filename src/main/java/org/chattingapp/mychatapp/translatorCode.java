@@ -9,7 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 class translatorCode {
-    private static String key = System.getenv("AZURE_TRANSLATOR_KEY");;
+    private static String key = "hello";
 
     // location, also known as region.
     // required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
